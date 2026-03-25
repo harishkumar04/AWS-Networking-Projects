@@ -130,3 +130,22 @@ Now, if we can see the Flow Logs in the VPC.
 # Test the connection 
 
 From the Instance 1 send some traffic to the instance 2.
+
+<img width="539" height="136" alt="Screenshot 2026-03-25 at 11 43 08 AM" src="https://github.com/user-attachments/assets/85a3ba99-daa1-44e8-87fd-11bcc20791d0" />
+
+# Check the Cloud Watch
+
+<img width="1176" height="659" alt="Screenshot 2026-03-25 at 11 47 17 AM" src="https://github.com/user-attachments/assets/b2e1afef-a995-4784-aecc-bd3882538307" />
+
+Breakdown of the logs,
+<img width="1023" height="444" alt="Screenshot 2026-03-25 at 11 47 05 AM" src="https://github.com/user-attachments/assets/9eae5084-dd77-4a69-893d-3ec50caa4bba" />
+
+Go back to the CloudWatch HomePage, there below the Log management u will see an option called as the Log Insights.
+
+Select the Log Group that we created from the Drop down.
+
+<img width="1027" height="582" alt="Screenshot 2026-03-25 at 11 54 45 AM" src="https://github.com/user-attachments/assets/b54b2450-a31e-4459-9f15-d175f709e9b4" />
+
+This feature can be used to prompt and fetch specific results that we want,
+
+<img width="1440" height="625" alt="Screenshot 2026-03-25 at 11 52 43 AM" src="https://github.com/user-attachments/assets/0e9443d0-a1e0-4400-91cc-e1596ae2078a" />
