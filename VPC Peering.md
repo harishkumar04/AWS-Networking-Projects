@@ -58,5 +58,13 @@ So go to the 2nd EC2 instance Security group and then add this Inbound Rule
 Make sure to keep the Source to `10.1.0.0/16` which is the IPv4 CIDR of the 1st VPC.
 
 Now if I ping the Private IPv4 address of the 2nd EC2 instance we will see the output
-x<img width="666" height="426" alt="Screenshot 2026-03-25 at 10 41 17 AM" src="https://github.com/user-attachments/assets/2522a370-b0e7-4fc9-ac9f-9bb4356b9735" />
+
+## Why use the Private IP to ping and not the Public IP?
+
+If the peering connection is succesful, our instances can communicate using each other's private IPv4 addresses.
+If they can't communicate using their private IPv4 addresses, then... we have an error!
+
+That's why it's a good idea to test with the private IPv4 addresses - using public IPv4 addresses wouldn't give you much information about whether the peering connection was successful!
+
+<img width="666" height="426" alt="Screenshot 2026-03-25 at 10 41 17 AM" src="https://github.com/user-attachments/assets/2522a370-b0e7-4fc9-ac9f-9bb4356b9735" />
 
